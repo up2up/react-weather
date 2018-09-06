@@ -3,7 +3,7 @@ require("isomorphic-fetch");
 const express = require('express');
 const http = require('http');
 const DARKSKYAPI = "https://api.darksky.net/forecast/";
-const DARKSKYKEY = "testingkey";
+const DARKSKYKEY = "88b7e1d01f726689e8b8507e176c0eea";
 const port = 3333;
 
 const app = express();
