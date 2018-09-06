@@ -68,7 +68,7 @@ class WeatherSwitch extends Component {
         }, () => this.getWeather());
 
         const googleMapsClient = GoogleMap.createClient({
-          key: 'testingkey'
+          key: 'AIzaSyD0patGePAPXakS7AMyPguxhbSVfbLZ6dc'
         });
 
         googleMapsClient.reverseGeocode({ latlng: [this.state.latitude, this.state.longitude] }, (err, response) => {
